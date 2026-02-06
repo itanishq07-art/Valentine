@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Just One Question ❤️</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial;
+      background: #ffe6f0;
+      margin-top: 100px;
+    }
+    button {
+      font-size: 20px;
+      padding: 12px 25px;
+      margin: 20px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+    }
+    #yes {
+      background-color: #ff4d88;
+      color: white;
+    }
+    #no {
+      background-color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Will you be my Valentine? 💖</h1>
+
+<button id="yes" onclick="yesClicked()">YES ❤️</button>
+<button id="no" onmouseover="moveNo()">NO 🙈</button>
+
+<script>
+function yesClicked() {
+  window.location.href = "https://drive.google.com/file/d/1UNIcXVk8BcAfrpP7V26RiZOGFNpRNeOf/view?usp=drivesdk";
+}
+
+function moveNo() {
+  const no = document.getElementById("no");
+  no.style.position = "absolute";
+  no.style.left = Math.random() * 80 + "vw";
+  no.style.top = Math.random() * 80 + "vh";
+}
+</script>
+
+</body>
+</html>
