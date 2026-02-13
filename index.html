@@ -1,49 +1,95 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Just One Question ❤️</title>
-  <style>
-    body {
-      text-align: center;
-      font-family: Arial;
-      background: #ffe6f0;
-      margin-top: 100px;
-    }
-    button {
-      font-size: 20px;
-      padding: 12px 25px;
-      margin: 20px;
-      border-radius: 10px;
-      border: none;
-      cursor: pointer;
-    }
-    #yes {
-      background-color: #ff4d88;
-      color: white;
-    }
-    #no {
-      background-color: #ccc;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>im sorry my wife</title>
+
+<style>
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f0;
+    padding: 40px;
+}
+
+h1 {
+    color: #ff4d88;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#yes {
+    background-color: #ff4d88;
+    color: white;
+}
+
+#no {
+    background-color: #ccc;
+    position: relative;
+}
+
+.note {
+    max-width: 900px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: left;
+}
+</style>
 </head>
+
 <body>
 
-<h1>Will you be my Valentine? 💖</h1>
+<h1>im sorry my wife 🧿❤️💍</h1>
 
-<button id="yes" onclick="yesClicked()">YES ❤️</button>
-<button id="no" onmouseover="moveNo()">NO 🙈</button>
+<button id="yes" onclick="growYes()">its okay, love 💗</button>
+<button id="no" onmouseover="moveNo()">chup piddi 🙄</button>
 
 <script>
-function yesClicked() {
-  window.location.href = "https://drive.google.com/file/d/1UNIcXVk8BcAfrpP7V26RiZOGFNpRNeOf/view?usp=drivesdk";
-}
+
+let size = 18;
 
 function moveNo() {
-  const no = document.getElementById("no");
-  no.style.position = "absolute";
-  no.style.left = Math.random() * 80 + "vw";
-  no.style.top = Math.random() * 80 + "vh";
+    const noBtn = document.getElementById("no");
+    const x = Math.random() * (window.innerWidth - 150);
+    const y = Math.random() * (window.innerHeight - 150);
+    noBtn.style.position = "absolute";
+    noBtn.style.left = x + "px";
+    noBtn.style.top = y + "px";
 }
+
+function growYes() {
+    size += 6;
+    document.getElementById("yes").style.fontSize = size + "px";
+
+    if(size > 42){
+        document.body.innerHTML = `
+        <h1 style="color:#ff4d88;">i’m really sorry my wife🧿❤️💍</h1>
+        <div class="note">
+        <p>
+
+i’m really sorry my wife🧿❤️💍. I know i already did a mistake uss time and im still sorry about it. Mujhe pata hai ki kuch acha nahi kr skta ab but atleast ek choti si koshish krra hope things will get better between us. I never meant to hurt you, you matter to me more than me and myself and you know how much i love myself right? Mai toh khudko sabse upar rkhta hu ab socho khud se bhi zyada pyaar and trust terse krta toh how much you mean to me. I just want us happy again. Ik fights and arguments baad mei bhi hongi and hoti rhengi but leaving mere mei kabhi soch bhi nahi ayegi agar tujhe abhi bhi mera woh tere “this wont work” ke mssg ke baad mera “okay” ajeeb laga but maine tujhe uska bhi bataya. Ek hi baar toh jeeta hu aur iss jeet ko mai granted ya bhula kaise skta hu. I alr told you ki mujhe tera har waqt chahiye rehta toh mai kaise tere bina zara sa bhi reh skta hu, mai toh kahi bhi kabhi bhi terse hi rehta and apna bhi sara waqt tumhe hi deta. I just love and just know ki woh okay ya kuch bhi yeh baat tere mann mei na aane de ki mai easily terepe give up krdunga. And bhyii dekhoo woh toh yk ki kisi aur ladki k liye bhi nahi ki yeh jldi jaye koi aur aye maine bilkul usliye bhi direct “okay” nahi likha tha tujhe sab bataya maine, and iska toh yk ki if my wiffeee overthinks kya even thinks aur meri story mei ladki ka bhi zikar hojaye woh woman is getting blocked, cut off, baat tak bhi nahi krta toh yeh bhi baat hai.
+
+ANDDD i want to say ki bhyi andd pehle toh nahi but ab tere sath, i have trust on you even more than myself, similar to the way i trust god waise hi tujhe BUT i have anxious attachment. I get jealous very easily, i overthink about everything, from text messages to your own behaviour (not buri way mei) and i probably overthink about your feelings more than i need to. I constantly have the need for reassurance and to seek validation sometimes compliments bhi ache lgte. These 2 things is something i never grew up with about reassurance and validation wali baat kyunki pehle gfs se itni protectiveness ya possessiveness feel nahi hoti thi and as iss mei serious hu mai. I have an intense fear of what if tu yeh bhul gyi and krde joh mujhe nahi pasand (alcohol aur likes wali baat pe hi nahi kehra but as in woh exam mei class ke cr ke sath ya aur bhi joj baatein huyi), what if tujhe koi aur acha lag jaye, what if tu bore hojaye, what if tu bohot zyada tang hojaye mere aise nature se tere liye joh hai etc etc…i love you pura ghus jana kehte haina jisse pyaar mei waise types hai pura tere mei magan hoke and isliye yeh sab hota and i cant help it.
+
+Anyways ek Choti koshish thi yeh link and i love you the mostt my wifee and btw you are absolutely stunning gorgeous and sabse prettiest. Baby you light up my world like nobody else, the way that you flip you hair gets me overwhelmed. It aint hard to tell , you dont need makeup to cover mere liye being the way that you are is enough.
+
+IF ONLY YOU SAW WHAT I CAN SEE, YOULL UNDERSTAND WHY I LOVE YOUU SO DESPERATELY AND OBSESSED HOKE
+
+        </p>
+        </div>
+        `;
+    }
+}
+
 </script>
 
 </body>
